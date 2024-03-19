@@ -1,0 +1,30 @@
+<suite name="Suite Luma Website" verbose="1">
+    <test name="Nopackage">
+        <classes>
+            <class name="createanaccounttests.CreateAccountTests">
+            </class>
+            <class name="signintests.SignInTests">
+            <methods>
+                <include name="t2_EnterValidPasswordAndEmail"/>
+                <include name="t4_ChkShowPassword"/>
+            </methods>
+            </class>
+            <class name="menjacketpagetests.MenJacketsPageTest">
+            </class>
+            <class name="cartpagestests.CartPageTests">
+            </class>
+            <class name="checkOutTests.CheckOutTests">
+            </class>
+            <class name="paymenttests.PaymentTests">
+            </class>
+            <class name="signouttests.SignOutTest">
+            </class>
+            <class name="addtocomparetest.AddToCompareTest">
+            </class>
+            <class name="addToWishList.AddToWishListFunction">
+            </class>
+            <class name="outofstockitemnotify.NotifyTests">
+            </class>
+        </classes>
+    </test>
+</suite>
